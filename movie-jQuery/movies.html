@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Review</title>
+    <link rel="stylesheet" href="movies.css" />
+  </head>
+  <body>
+    <form action="#">
+      <input type="text" id="title" placeholder="Movie Title" required />
+      <input
+        type="number"
+        id="rating"
+        placeholder="Rating"
+        min="0"
+        max="10"
+        required
+      />
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Movie Title</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="movies.js"></script>
+  </body>
+</html>

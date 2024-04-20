@@ -1,0 +1,21 @@
+form, table{
+    margin-top: 1rem;
+}
+
+tr,th{
+    text-align: left;
+    min-width: 10rem;
+    padding: 0.5rem;
+}
+
+input {
+    min-width: 10rem;
+    padding: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+}
